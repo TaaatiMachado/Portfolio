@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap') @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #10002b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body-bg,
+.nav-bg,
+.footer-bg {
+  background-image: repeating-linear-gradient(to bottom,
+      transparent 7px,
+      rgba(0, 0, 0, 0.8) 9px,
+      rgba(0, 0, 0, 0.8) 13px,
+      transparent 13px);
+
+}
+
+.body-bg:after {
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  width: 100%;
+  content: "";
+  background: linear-gradient(to top,
+      #10002b 20%,
+      #10002b00 80%);
+  pointer-events: none;
+}
+
+
+.shiny:hover {
+  box-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
+}
+
+.light-glow {
+  text-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1;
+  color: #ffffff;
+}
+
+.blink {
+  animation: blink;
+  -webkit-animation: blink;
+  animation-duration: 3s;
+  animation-delay: 1s;
+
+}
+
+@-webkit-keyframes blink {
+
+  20%,
+  24%,
+  55% {
+    opacity: 0;
+    text-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
+    transition: all 1.3s ease-in-out;
+
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 100;
+    text-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
+    transition: all 1.3s ease-in-out;
+
+  }
+}
+
+@keyframes blink {
+
+  20%,
+  24%,
+  55% {
+    text-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
+    opacity: 0;
+    transition: all 1.3s ease-in-out;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
+    opacity: 100;
+    transition: all 1.3s ease-in-out;
+
+  }
+}
+
+.hover-glow:hover {
+  text-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
+  color: #ffffff;
+}
+
+.styles-module_carousel-arrow__26sRw {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  background: url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) 50% no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 80px;
+  outline: 0;
+  position: relative;
+}
+
+button[data-direction="left"] {
+  transform: rotate(180deg);
+}
+
+.styles-module_carousel-arrow__26sRw:hover {
+  background-color: #3c096c;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
