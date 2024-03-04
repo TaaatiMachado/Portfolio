@@ -7,10 +7,10 @@ const ContactForm = () => {
       e.preventDefault();
       setIsSubmitting(true);    emailjs
         .sendForm(
-          process.env.REACT_APP_SERVICE_ID,
-          process.env.REACT_APP_TEMPLATE_ID,
+          process.env.service_d0wz7fk,
+          process.env.template_yqb2uvq,
           e.target,
-          process.env.REACT_APP_PUBLIC_KEY
+          process.env.xgq-GM2LR6_9FzW6E
         )
         .then(
           (result) => {
@@ -39,7 +39,7 @@ const ContactForm = () => {
         <input type="email" name="user_email" className="rounded-full h-10 mb-6 bg-transparent text-white px-5 focus:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#ff00e1,0_0_15px_#ff00e1,0_0_30px_#ff00e1] focus:border-dashed border border-solid"  />
         <label className="text-xl" >Message</label>
         <textarea name="message" className="rounded-xl h-36 mb-6 bg-transparent text-white px-5 py-3 focus:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#ff00e1,0_0_15px_#ff00e1,0_0_30px_#ff00e1] focus:border-dashed border border-solid" />
-        <input type="submit" value="Send" disabled={isSubmitting} className="  rounded-full px-12 py-3 text-xl bg-pink text-white transition duration-400 ease-in-out max-w-[200px] w-100 border-none hover:bg-light-purple" />
+        <input type="submit" value="Send" disabled={isSubmitting} className="rounded-full px-12 py-3 text-xl bg-pink text-white transition duration-400 ease-in-out max-w-[200px] w-100 border-none hover:bg-light-purple" />
         {stateMessage && <p>{stateMessage}</p>}
       </form>
     );
