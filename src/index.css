@@ -17,17 +17,6 @@ body {
   padding: 0;
 }
 
-.body-bg,
-.nav-bg,
-.footer-bg {
-  background-image: repeating-linear-gradient(to bottom,
-      transparent 7px,
-      rgba(0, 0, 0, 0.8) 9px,
-      rgba(0, 0, 0, 0.8) 13px,
-      transparent 13px);
-
-}
-
 .body-bg:after {
   position: absolute;
   bottom: 0;
@@ -40,7 +29,23 @@ body {
   pointer-events: none;
 }
 
+.menu{
+  opacity: 0;
+  
+}
+.menu.active{
+  opacity: 100;
+  transition: all 0.3s ease-in;
+}
+@media (min-width: 1024px){
+  .menu{
+    opacity: 100;
+  }
 
+}
+.svg-shiny{
+  filter: drop-shadow(0 0 8px #ff00e1);
+}
 .shiny:hover {
   box-shadow: 0 0 5px #ff00e1, 0 0 15px #ff00e1, 0 0 20px #ff00e1, 0 0 40px #ff00e1, 0 0 60px #9d00ff, 0 0 10px #ea00ff, 0 0 98px #ff00d9;
 }
