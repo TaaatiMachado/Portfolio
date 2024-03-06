@@ -14,11 +14,14 @@ const Profile = () => {
 
 
 
-                    <p className='text-md my-0 p-10 md:max-w-[50%] border border-dashed border-white rounded-lg'>Passionate about the intersection of art and technology, I have gained valuable experience as a front-end developer,
-dedicated to crafting and maintaining websites for prominent clients in the news industry, with an impressive daily
-traffic of approximately 1 million unique users. I am driven by a desire for professional growth, aspiring to continually
-enhance my IT skills. My goal is to contribute to technological accessibility, striving to simplify the lives of others
-through innovative solutions</p>
+                    <p className='text-md my-0 p-10 md:max-w-[50%] border border-dashed border-white rounded-lg'>
+                        Passionate about the intersection of art and technology, I have gained valuable experience as a front-end developer,
+                        dedicated to crafting and maintaining websites for prominent clients in the news industry, with an impressive daily
+                        traffic of approximately 1 million unique users. I am driven by a desire for professional growth, aspiring to continually
+                        enhance my IT skills. My goal is to contribute to technological accessibility, striving to simplify the lives of others
+                        through innovative solutions
+
+                    </p>
 
                 </div>
             </div>

@@ -8,12 +8,12 @@ import portfolio from '../../assets/devportfolio.jpg'
 
 const Projects = () => {
     return (
-        <div id="projects" className=" pt-10 px-12 max-w-[1440px] mx-auto">
-            <Shiny className="text-2xl my-0 pt-10 px-10 text-center">Projects</Shiny>
-            <Carousel show={1.5} slide={1} transition={0.5} swiping={true} responsive>
+        <div id="projects" className=" pt-10 px-2 max-w-[1440px] mx-auto">
+            <Shiny className="text-2xl my-0 pt-10 px-2 text-center">Projects</Shiny>
+            <Carousel show={1} slide={1} transition={0.5} swiping={true} responsive>
                 <CarouselItem img={pokedex} url={'https://github.com/Felipe-Streva/Pokedex_API'} title='Pokédex'/>
                 <CarouselItem img={ilovepxl} url={'https://github.com/TaaatiMachado/ilovepixel'} title='I Love Pixel'/>
-                <CarouselItem img={portfolio} url={'https://github.com/TaaatiMachado/Portfolio'} title='Dev Portfolio'/>
+                <CarouselItem img={portfolio} url={'https://github.com/TaaatiMachado/Portfolio'} title='Portfolio'/>
             </Carousel>
         </div>
     )
