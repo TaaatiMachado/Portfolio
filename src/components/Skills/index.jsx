@@ -15,6 +15,7 @@ import figma from '../../assets/icons/figma.png'
 import wordpress from '../../assets/icons/wordpress.png'
 import bootstrap from '../../assets/icons/bootstrap.png'
 import agile from '../../assets/icons/agile.png'
+import tp from '../../assets/icons/Typescript.png'
 
 import { Glow, GlowCapture } from '@codaworks/react-glow'
 
@@ -49,6 +50,12 @@ const Skills = () => {
                             <div className="flex flex-col justify-center items-center w-36 rounded-lg p-3 bg-lightest-purple/50 border-white/100 border-dashed lg:bg-transparent lg:border-transparent lg:glow:bg-lightest-purple/50 lg:glow:border-white/100 border lg:glow:border-dashed">
                                 <img src={react} className='min-h-[120px] w-20 h-full object-contain' />
                                 <p className='m-0 font-bold text-wrap text-center text-white lg:text-transparent lg:glow:text-white text-transparent'>React.JS</p>
+                            </div>
+                        </Glow>
+                        <Glow>
+                            <div className="flex flex-col justify-center items-center w-36 rounded-lg p-3 bg-lightest-purple/50 border-white/100 border-dashed lg:bg-transparent lg:border-transparent lg:glow:bg-lightest-purple/50 lg:glow:border-white/100 border lg:glow:border-dashed">
+                                <img src={tp} className='min-h-[120px] w-20 h-full object-contain' />
+                                <p className='m-0 font-bold text-wrap text-center text-white lg:text-transparent lg:glow:text-white text-transparent'>TypeScript</p>
                             </div>
                         </Glow>
                         <Glow>
