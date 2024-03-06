@@ -14,15 +14,17 @@ const ContactForm = () => {
         .then(
           () => {
             console.log('SUCCESS!');
+            alert('Thank you!')
           },
           (error) => {
             console.log('FAILED...', error.text);
+            alert('Something failed, please try again.', error.text)
           },
         );
     };
   
     return (
-      <form ref={form} onSubmit={sendEmail} className="flex p-12 m-auto max-w-[960px] flex-col bg-purple bg-opacity-25 rounded-lg w-100">
+      <form ref={form} onSubmit={sendEmail} className="flex p-12 m-auto max-w-[960px] flex-col bg-purple bg-opacity-25 rounded-lg w-100 focus:ring-0">
         <label>Name</label>
         <input type="text" name="user_name" className=" text-lg rounded-full h-10 mb-6 bg-transparent text-white px-5 focus:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#ff00e1,0_0_15px_#ff00e1,0_0_30px_#ff00e1] focus:border-dashed border border-solid"/>
         <label>Email</label>
