@@ -82,12 +82,12 @@ const Skills = () => {
                                 <p className='m-0 font-bold text-wrap text-center text-white lg:text-transparent lg:glow:text-white text-transparent'>Styled Components</p>
                             </div>
                         </Glow>
-                        <Glow>
+                        {/*<Glow>
                             <div className="flex flex-col justify-center items-center w-36 rounded-lg p-3 bg-lightest-purple/50 border-white/100 border-dashed lg:bg-transparent lg:border-transparent lg:glow:bg-lightest-purple/50 lg:glow:border-white/100 border lg:glow:border-dashed">
                                 <img src={flutter} className='min-h-[120px] w-20 h-full object-contain' />
                                 <p className='m-0 font-bold text-wrap text-center text-white lg:text-transparent lg:glow:text-white text-transparent'>Flutter</p>
                             </div>
-                        </Glow>
+    </Glow>*/}
                         <Glow>
                             <div className="flex flex-col justify-center items-center w-36 rounded-lg p-3 bg-lightest-purple/50 border-white/100 border-dashed lg:bg-transparent lg:border-transparent lg:glow:bg-lightest-purple/50 lg:glow:border-white/100 border lg:glow:border-dashed">
                                 <img src={native} className='min-h-[120px] w-20 h-full object-contain' />
