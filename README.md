@@ -1,4 +1,4 @@
-# Portfolio Landing Page
+# Portfolio
 Este é o repositório da minha landing page de portfolio, desenvolvida utilizando React, Tailwind CSS, React Router e Vite.
 
 ## Visão Geral
