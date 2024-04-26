@@ -5,6 +5,7 @@ import pokedex from '../../assets/pokedex.jpg'
 import ilovepxl from '../../assets/ilovepxl.jpg'
 import portfolio from '../../assets/devportfolio.jpg'
 import coffeebara from '../../assets/coffeebara.jpg'
+import moovies from '../../assets/moovies.png'
 
 
 
@@ -15,6 +16,7 @@ const Projects = () => {
             <Carousel show={1} slide={1} transition={0.5} swiping={true} responsive className="m-auto">
                 <CarouselItem img={coffeebara} url={'https://github.com/TaaatiMachado/coffeebara'} title='Coffeebara App' />
                 <CarouselItem img={ilovepxl} url={'https://github.com/TaaatiMachado/ilovepixel'} title='I Love Pixel' />
+                <CarouselItem img={moovies} url={'https://github.com/TaaatiMachado/moovies'} title='Moovies' />
                 <CarouselItem img={portfolio} url={'https://github.com/TaaatiMachado/Portfolio'} title='Portfolio' />
                 <CarouselItem img={pokedex} url={'https://github.com/Felipe-Streva/Pokedex_API'} title='Pokédex' />
 
