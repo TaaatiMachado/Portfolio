@@ -18,9 +18,7 @@ const Projects = () => {
                 <CarouselItem img={ilovepxl} url={'https://github.com/TaaatiMachado/ilovepixel'} title='I Love Pixel' />
                 <CarouselItem img={moovies} url={'https://github.com/TaaatiMachado/moovies'} title='Moovies' />
                 <CarouselItem img={portfolio} url={'https://github.com/TaaatiMachado/Portfolio'} title='Portfolio' />
-                <CarouselItem img={pokedex} url={'https://github.com/Felipe-Streva/Pokedex_API'} title='Pokédex' />
-
-
+                <CarouselItem img={pokedex} url={'https://github.com/TaaatiMachado/PokemonCenter'} title='Pokémon Center' />
             </Carousel>
         </div>
     )

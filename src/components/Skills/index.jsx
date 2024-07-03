@@ -18,6 +18,7 @@ import agile from '../../assets/icons/agile.png'
 import tp from '../../assets/icons/Typescript.png'
 
 import { Glow, GlowCapture } from '@codaworks/react-glow'
+import Shiny from '../Shiny'
 
 
 const Skills = () => {
@@ -25,7 +26,7 @@ const Skills = () => {
         <GlowCapture>
             <Glow>
                 <div className='max-w-[1440px] mx-auto pt-10 lg:glow:bg-pink/50' id='skills'>
-                    <h2 className="text-2xl my-0 pt-10 px-10 hover-glow transition-all ease-in-out duration-500 text-center">Skills</h2>
+                <Shiny className="text-2xl my-0 pt-10 px-2 text-center">Skills</Shiny>
 
                     <div className=' lg:glow:text-glow/50 flex justify-evenly items-center flex-wrap gap-12 p-12 w-[60%] m-auto'>
                         <Glow>

@@ -1,6 +1,6 @@
 import bats from '../../assets/bats.png'
 import Glow from '../Shiny'
-import resume from '../../assets/Tatiane Machado - Resume (2024).pdf'
+import resume from '../../assets/Tatiane Machado - Resume (24).pdf'
 
 const LandingHome = () => {
   return (
@@ -13,8 +13,8 @@ const LandingHome = () => {
             <h3 className=' text-2xl my-0 cursor-default'>I'm a Front-end & App Developer</h3>
             <h5 className=' text-xl my-0 cursor-default'>I build things for the web :)</h5>
             <div className='py-10 flex flex-col gap-4 lg:flex-row' >
-              <a className=" text-center bg-purple rounded-full px-12 py-3 text-white font-semibold no-underline hover:bg-light-purple focus:outline-none transition duration-800 ease-in-out hover-glow" href='https://www.linkedin.com/in/taaatimachado/'>LinkedIn</a>
-              <a className="text-center bg-purple rounded-full px-12 py-3 text-white font-semibold no-underline hover:bg-light-purple focus:outline-none transition duration-800 ease-in-out hover-glow" href='https://github.com/TaaatiMachado'>Github</a>
+              <a className=" text-center bg-purple rounded-full px-12 py-3 text-white font-semibold no-underline hover:bg-light-purple focus:outline-none transition duration-800 ease-in-out hover-glow" href='https://www.linkedin.com/in/taaatimachado/' target='blank'>LinkedIn</a>
+              <a className="text-center bg-purple rounded-full px-12 py-3 text-white font-semibold no-underline hover:bg-light-purple focus:outline-none transition duration-800 ease-in-out hover-glow" href='https://github.com/TaaatiMachado' target='blank'>Github</a>
               <a className="text-center bg-purple rounded-full px-12 py-3 text-white font-semibold no-underline hover:bg-light-purple focus:outline-none transition duration-800 ease-in-out hover-glow" href={resume} target='blank'>Resume</a>
             </div>
           </div>
